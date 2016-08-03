@@ -1,0 +1,107 @@
+@import url("font-awesome.min.css");
+*{
+padding: 0px;
+margin:0px;
+}
+
+
+div#header{
+
+	background-color: #ff6200;
+	/*height: 80px;*/
+}
+
+div#header .container-fluid{
+	padding-left: 0px;
+}
+div#head2{
+	background-color: #f9f9f9;
+}
+
+
+.navbar-default {
+     background-color: transparent !important; 
+     border-color: transparent !important; 
+     margin-bottom: 0 !important;
+}
+
+div#head2 .container{
+	padding: 1.6%;
+
+}
+
+div#head2 a{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+div#head2 ul.navbar-right{
+	padding-top: 1.1%;
+	margin-right: 10px;
+    box-sizing: border-box;
+}
+div#head2 .navbar-default{
+	padding-left: 0px !important;
+}
+ul.navbar-right a , ul.navbar-left a{
+padding-left: 2px !important;
+}
+div#section{
+	padding-bottom: 8%;
+}
+div#section div.container{
+	margin-top: 3%;
+}
+div#section div.container h1{
+	color:#ff6200;
+}
+div#section div.container .padding{
+	padding-right: 5.5%;
+}
+
+div#section div.container .col-md-6 h1{
+border-bottom: 5px solid #525252;
+}
+div#section div.container .col-xs-6 p{
+	margin-bottom: 9%;
+}
+div#section div.container .col-md-6 span{
+	/*line-height: 4%;*/
+	display: block;
+   padding: 11px 0px
+}
+
+div#section div.container .padding .col-xs-6{
+	padding-left: 0px !important;
+}
+div#section div.container .padding .padding-right{
+	padding-right: 0px !important;
+}
+.btn-default {
+	background-color: #ff6200 !important;
+	color: white;
+	border:0px;
+	width: 80px;
+	border-radius: 0px;
+}
+.gray{
+	background-color: #f6f6f6;
+	outline: 0px;
+	border: transparent;
+}
+form button:hover{
+	color: white !important;
+
+}
+.orange{
+	color: #be3600 !important;
+}
+.white{
+	color:white !important;
+}
+@media (max-width: 768px){
+	div#header .navbar-default .navbar-nav>li>a {
+    padding-left: 28px !important;
+}
+}
